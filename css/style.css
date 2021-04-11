@@ -1,0 +1,24 @@
+tbody{
+    border-collapse: collapse;
+   
+    
+}
+
+tbody>tr:nth-child(even){
+    background-color: rgb(240, 234, 234);
+    
+}
+
+tbody>tr:nth-child(odd){
+    background-color: rgb(211, 209, 209);
+}
+td{
+    text-align: center; padding: 5px;
+}
+
+thead{
+    background-color: rgb(77, 92, 161);
+}
+tr>td:nth-child(even){
+    background-color: rgb(255, 255, 255,0.3);
+}
